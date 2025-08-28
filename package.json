@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -14,12 +13,18 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
+    "@nuxt/icon": "^2.0.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@tailwindcss/vite": "^4.1.12",
     "nuxt": "^4.0.3",
+    "nuxt-icons": "^3.2.1",
+    "tailwindcss": "^4.1.12",
     "vue": "^3.5.20",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.1",
+    "daisyui": "^5.0.54",
     "eslint": "^9.34.0",
     "eslint-plugin-format": "^1.0.1"
   }
